@@ -1,0 +1,10 @@
+
+
+<form *ngIf="showAddComment" class="add-form-comment" (ngSubmit)="onSubmit()">
+  <div class="form-control-comment">
+    <label for="body">Body</label>
+    <textarea class="input" type="text" name="body" id="body" placeholder="Add Comment Body" [(ngModel)]="body" ></textarea>
+    <div class="cut"></div>
+  </div>
+  <input type="submit" value="Save Comment" class="btn-comment btn-block-comment" />
+</form>

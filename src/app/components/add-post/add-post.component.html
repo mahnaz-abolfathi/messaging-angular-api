@@ -1,0 +1,17 @@
+
+<form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
+
+    <div class="form-control">
+        <label for="subject">Subject</label>
+        <input class="input" type="text" name="subject" id="subject" placeholder="Add Subject" [(ngModel)]="subject" />
+        <div class="cut"></div>
+    </div>
+    <div class="form-control">
+        <label for="body">Body</label>
+        <input class="input" type="text" name="body" id="body" placeholder="Add Body" [(ngModel)]="body" />
+        <div class="cut"></div>
+    </div>
+    <input type="submit" value="Save Post" class="btn btn-block" />
+</form>
+
+

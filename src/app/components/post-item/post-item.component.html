@@ -1,0 +1,29 @@
+<!--<div-->
+<!--[ngClass]="{reminder: task.reminder}"-->
+<!--class="task"-->
+<!--(dblclick)="onToggle(task)" >-->
+
+
+<div class="post">
+
+  <h4>{{post.subject}}</h4>
+  <h5>{{post.body}}</h5>
+
+  <app-comment-item
+    *ngFor="let comment of post.comments"
+    [comment]="comment">
+
+  </app-comment-item>
+
+
+  <button (click)=toggleDisplayDiv()>Add Comment</button>
+  <app-add-comment
+    *ngIf="!isShowComment"
+    [postId]="post.id"
+    [author]="post.author"
+    (onAddComment)="addComment($event)"
+  >
+
+  </app-add-comment>
+
+</div>

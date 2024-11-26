@@ -1,0 +1,60 @@
+
+
+.add-form-comment {
+  margin-bottom: 40px;
+  color: greenyellow;
+}
+
+
+.form-control-comment label {
+  display: block;
+  color: #8a8f63;
+  font-size: 11px;
+}
+
+.form-control-comment body {
+  display: block;
+  color: #8a8f63;
+  font-size: 12px;
+}
+
+.form-control-comment input {
+  width: 25%;
+  height: 25px;
+  /*margin: 5px;*/
+  padding: 3px 7px;
+  font-size: 12px;
+
+}
+
+
+.form-control-comment textarea {
+  width: 80%;
+  height: 70px;
+  /*margin: 5px;*/
+  padding: 3px 7px;
+  font-size: 12px;
+
+}
+
+
+.btn-comment {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+.btn-block-comment{
+  display: block;
+  width: 25%;
+  /*font-size: 11px;*/
+  text-align: left;
+}

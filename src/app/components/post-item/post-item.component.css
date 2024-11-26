@@ -1,0 +1,36 @@
+
+.post {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 1px 20px;
+    cursor: pointer;
+    /* width: 33%; */
+}
+
+.post.reminder {
+    border-left: 10px solid green;
+}
+
+.post h3 {
+    display: flex;
+    color: #183888;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post h4 {
+    display: flex;
+    color: #349a92;
+    margin-left: 10px;
+    align-items: initial;
+    justify-content: space-between;
+}
+
+.post h5 {
+    display: flex;
+    color: #020218;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+

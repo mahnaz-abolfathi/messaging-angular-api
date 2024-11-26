@@ -1,0 +1,36 @@
+
+.comment {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 1px 20px;
+  cursor: pointer;
+  /* width: 33%; */
+}
+
+
+.comment h3 {
+  display: flex;
+  color: #183888;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.comment h4 {
+  display: flex;
+  color: #775676;
+  margin-left: 10px;
+  font-size: 11px;
+  align-items: initial;
+  justify-content: space-between;
+}
+
+.comment h5 {
+  display: flex;
+  color: #020218;
+  margin-left: 9px;
+  align-items: center;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
